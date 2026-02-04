@@ -77,7 +77,7 @@ export interface LiveData {
     is_ground: boolean;
 }
 
-const ACCESS_KEY = '4c7b36ae1c075b082ae74ae9ae46f722';
+const ACCESS_KEY = process.env.AVIATION_STACK_ACCESS_KEY;
 const BASE_URL = 'http://api.aviationstack.com/v1/flights';
 
 /**
